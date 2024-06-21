@@ -129,3 +129,60 @@
     background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
 }
 
+.pago1 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Deadknight', sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 50px; /* Ajusta la altura de línea para centrar verticalmente el texto */
+}
+
+.botoncompra {
+    position: absolute;
+    right: 70px;
+    bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Deadknight', sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 50px; /* Ajusta la altura de línea para centrar verticalmente el texto */
+}
+
+.botoncompra:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+.fotoc {
+    position: absolute;
+    bottom: -5px;
+    left: 15px;
+}
+
+
+.pago2 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Deadknight', sans-serif;
+    text-decoration: none;
+    color: black;
+    line-height: 50px; /* Ajusta la altura de línea para centrar verticalmente el texto */
+}
