@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Playground';
+    src: url('resources/letras/Happy\ Memories.otf') format('woff2'), 
+         url('resources/letras/Happy\ Memories.otf') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Deadknight';
+    src: url('resources/letras/Deadknight.otf') format('woff2'), 
+         url('resources/letras/Deadknight.otf') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+#contenedor {
+    background-color: black;
+    width: 1897px;
+    height: 915px;
+}
+
+#basico {
+
+    background-color: rgb(172, 172, 172);
+    width: 600px;
+    height: 830px;
+    position:absolute;
+    left: 50px;
+    top: 50px
+}
+
+.titulobasico {
+    position: absolute;
+    left: 80px;
+    top: -130px;
+    font-family: 'Playground', sans-serif;
+    font-size: 100px; 
+    line-height: 1.6;
+}
+
+.textobasico {
+    position: absolute;
+    left: 80px;
+    bottom: 130px;
+    font-family: 'Playground', sans-serif;
+    font-size: 20px; 
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+.titulovip {
+    position: absolute;
+    left: 130px;
+    top: -130px;
+    font-family: 'Playground', sans-serif;
+    font-size: 100px; 
+    line-height: 1.6;
+}
+
+.textoVIP {
+    position: absolute;
+    left: 80px;
+    bottom: 130px;
+    font-family: 'Playground', sans-serif;
+    font-size: 20px; 
+    line-height: 1.6;
+    text-align: left;
+
+}
+
+.VIP {
+
+    background-color: rgb(172, 172, 172);
+    width: 600px;
+    height: 830px;
+    position:absolute;
+    right: 50px;
+    top: 50px
+}
+
+.Info {
+    background-color: rgb(172, 172, 172);
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    left: 750px;
+    top: 250px
+
+}
+
+.titulo {
+    position: absolute;
+    left: 20px;
+    top: -50px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 40px; 
+    line-height: 1.6;
+}
+.FOTO {
+    position: absolute;
+    left: 99px;
+    top: 70px;
+
+    width: 200px; 
+    height: 200px; 
+}
+
+.boton {
+    position: absolute;
+    left: 99px;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Deadknight', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    line-height: 50px; /* Ajusta la altura de línea para centrar verticalmente el texto */
+}
+
+
+.boton:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+

@@ -1,0 +1,570 @@
+@font-face {
+    font-family: 'Deadknight';
+    src: url('resources/letras/Deadknight.otf') format('woff2'), 
+         url('resources/letras/Deadknight.otf') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playground';
+    src: url('resources/letras/Happy\ Memories.otf') format('woff2'), 
+         url('resources/letras/Happy\ Memories.otf') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Oculta el desbordamiento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Color de fondo alrededor del contenedor */
+}
+
+#contenedor {
+    background-color: black;
+    width: 1790px;
+    height: 915px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra opcional para el contenedor */
+    position: relative; /* Asegura el posicionamiento relativo */
+    overflow: hidden; /* Asegura que nada salga del contenedor */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#serverdiscord {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 50px;
+    top: 50px
+}
+
+.texto {
+    position: absolute;
+    left: 45px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    line-height: 1.6;
+}
+
+.fotods {
+
+    position: absolute;
+    left: 5px;
+    top: 90px;
+
+    width: 200px; 
+    height: 200px; 
+
+}
+
+
+.boton1ds {
+
+    position: absolute;
+    left: 5px;
+    bottom: -230px;
+    width: 200px; 
+    height: 50px; 
+    background-color: rgb(0, 255, 0);
+    text-decoration: none;
+    border: none;
+    border-color: black;
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black;
+}
+
+.boton1ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+#nitro {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 400px;
+    top: 50px
+}
+
+.boton2ds {
+
+    position: absolute;
+    left: -60px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton2ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto1 {
+    position: absolute;
+    left: 110px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    line-height: 1.6;
+}
+
+.fotods1 {
+    position: absolute;
+    left: 75px;
+    top: 55px;
+
+    width: 150px; 
+    height: 200px; 
+}
+
+
+#Fivem {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 750px;
+    top: 50px
+}
+
+.boton3ds {
+
+    position: absolute;
+    left: -60px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton3ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto2 {
+    position: absolute;
+    left: 110px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods2 {
+    position: absolute;
+    left: 0px;
+    top: 55px;
+
+    width: 290px; 
+    height: 200px; 
+}
+
+#brawl {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 1100px;
+    top: 50px
+}
+
+.boton4ds {
+
+    position: absolute;
+    left:10px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton4ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto3 {
+    position: absolute;
+    left: 40px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods3 {
+    position: absolute;
+    left: 0px;
+    top: 55px;
+
+    width: 290px; 
+    height: 200px; 
+}
+
+
+#highlights {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 50px;
+    bottom: 60px
+}
+
+.texto4 {
+    position: absolute;
+    left: 75px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    line-height: 1.6;
+}
+
+.fotods4 {
+
+    position: absolute;
+    left: 50px;
+    bottom: 90px;
+
+    width: 200px; 
+    height: 200px;
+    border-radius: 500px; 
+
+}
+
+
+.boton5ds {
+
+    position: absolute;
+    left: -25px;
+    bottom: -230px;
+    width: 200px; 
+    height: 50px; 
+    background-color: rgb(0, 255, 0);
+    text-decoration: none;
+    border: none;
+    border-color: black;
+    border: 2px solid black; 
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black;
+}
+
+.boton5ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+#ropa {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 400px;
+    bottom: 60px
+}
+
+.boton6ds {
+
+    position: absolute;
+    left: -60px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton6ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto5 {
+    position: absolute;
+    left: 110px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    line-height: 1.6;
+}
+
+.fotods5 {
+    position: absolute;
+    left: 75px;
+    top: 55px;
+
+    width: 150px; 
+    height: 200px; 
+}
+
+#pack {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 750px;
+    bottom: 60px
+}
+
+.boton8ds {
+
+    position: absolute;
+    left: -50px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton8ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto7 {
+    position: absolute;
+    left: 100px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods7 {
+    position: absolute;
+    left: 55px;
+    top: 55px;
+
+    width: 200px; 
+    height: 200px; 
+}
+
+#troyano {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 1100px;
+    bottom: 60px
+}
+
+.boton7ds {
+
+    position: absolute;
+    left:10px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton7ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto6 {
+    position: absolute;
+    left: 40px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods6 {
+    position: absolute;
+    left: 55px;
+    top: 55px;
+
+    width: 200px; 
+    height: 200px; 
+}
+
+#valoraciones {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 1450px;
+    bottom: 60px
+}
+
+.boton9ds {
+
+    position: absolute;
+    left:-10px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton9ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto8 {
+    position: absolute;
+    left: 55px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods8 {
+    position: absolute;
+    left: 55px;
+    top: 55px;
+
+    width: 200px; 
+    height: 200px; 
+}
+
+#info {
+
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 350px;
+    position:absolute;
+    left: 1450px;
+    top: 50px
+}
+
+.boton10ds {
+
+    position: absolute;
+    left:-30px;
+    bottom: -230px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Playground', sans-serif;
+    color: black; /* Puedes cambiar a 'white' si el texto no es visible */
+    font-size: 30px;
+    text-decoration: none; /* Si no se usa como enlace */
+}
+
+.boton10ds:hover {
+    background-color: #0051ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.texto9 {
+    position: absolute;
+    left: 75px;
+    top: -30px;
+    font-family: 'Deadknight', sans-serif;
+    font-size: 30px; 
+    text-decoration: none; /* Si no se usa como enlace */
+    line-height: 1.6;
+}
+
+.fotods9 {
+    position: absolute;
+    left: 0px;
+    top: 55px;
+
+    width: 300px; 
+    height: 200px; 
+}
+
+.linea-rgb {
+    width: 1789px; /* Ancho de la línea */
+    height: 20px; /* Altura de la línea */
+    background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: animarGradiente 10s ease infinite;
+    border: 1px solid #000;
+    margin: 20px 0;
+    position: absolute;
+    top:430px;
+}
+
+@keyframes animarGradiente {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
